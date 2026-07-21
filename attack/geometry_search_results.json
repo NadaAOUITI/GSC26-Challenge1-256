@@ -1,0 +1,258 @@
+{
+  "rows": [
+    {
+      "family": "sunglasses",
+      "preset": "default",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.08,
+      "proxy": 0.112,
+      "geometry": {
+        "eye_y": 0.38,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "sunglasses",
+      "preset": "eyes_low",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.09,
+      "proxy": 0.118,
+      "geometry": {
+        "eye_y": 0.42,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "sunglasses",
+      "preset": "eyes_lower",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.11,
+      "proxy": 0.13,
+      "geometry": {
+        "eye_y": 0.46,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "sunglasses",
+      "preset": "eyes_high",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.11,
+      "proxy": 0.13,
+      "geometry": {
+        "eye_y": 0.34,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "sunglasses",
+      "preset": "lenses_big",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.05,
+      "proxy": 0.094,
+      "geometry": {
+        "eye_y": 0.38,
+        "lens_h": 0.15,
+        "lens_w": 0.22,
+        "gap": 0.05,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "sunglasses",
+      "preset": "lenses_huge",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.05,
+      "proxy": 0.094,
+      "geometry": {
+        "eye_y": 0.4,
+        "lens_h": 0.18,
+        "lens_w": 0.26,
+        "gap": 0.04,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "sunglasses",
+      "preset": "combo_low_big",
+      "case": 1,
+      "clean_acc": 0.16,
+      "asr": 0.05,
+      "proxy": 0.094,
+      "geometry": {
+        "eye_y": 0.42,
+        "lens_h": 0.15,
+        "lens_w": 0.22,
+        "gap": 0.05,
+        "mask_top": 0.5,
+        "mask_bottom": 0.92,
+        "mask_mid": 0.7,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "mask",
+      "preset": "default",
+      "case": 2,
+      "clean_acc": 0.13,
+      "asr": 0.35,
+      "proxy": 0.262,
+      "geometry": {
+        "eye_y": 0.38,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.48,
+        "mask_bottom": 0.9,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "mask",
+      "preset": "mask_high",
+      "case": 2,
+      "clean_acc": 0.13,
+      "asr": 0.44,
+      "proxy": 0.316,
+      "geometry": {
+        "eye_y": 0.38,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.42,
+        "mask_bottom": 0.88,
+        "mask_mid": 0.62,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "mask",
+      "preset": "mask_low",
+      "case": 2,
+      "clean_acc": 0.13,
+      "asr": 0.37,
+      "proxy": 0.274,
+      "geometry": {
+        "eye_y": 0.38,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.52,
+        "mask_bottom": 0.95,
+        "mask_mid": 0.72,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    },
+    {
+      "family": "mask",
+      "preset": "mask_wide",
+      "case": 2,
+      "clean_acc": 0.13,
+      "asr": 0.39,
+      "proxy": 0.286,
+      "geometry": {
+        "eye_y": 0.38,
+        "lens_h": 0.12,
+        "lens_w": 0.18,
+        "gap": 0.06,
+        "mask_top": 0.46,
+        "mask_bottom": 0.92,
+        "mask_mid": 0.68,
+        "mask_top_half": 0.2,
+        "mask_mid_half": 0.4,
+        "mask_bot_half": 0.36
+      }
+    },
+    {
+      "family": "mask",
+      "preset": "combo_low_big",
+      "case": 2,
+      "clean_acc": 0.13,
+      "asr": 0.34,
+      "proxy": 0.256,
+      "geometry": {
+        "eye_y": 0.42,
+        "lens_h": 0.15,
+        "lens_w": 0.22,
+        "gap": 0.05,
+        "mask_top": 0.5,
+        "mask_bottom": 0.92,
+        "mask_mid": 0.7,
+        "mask_top_half": 0.16,
+        "mask_mid_half": 0.34,
+        "mask_bot_half": 0.3
+      }
+    }
+  ],
+  "best_sunglasses_preset": "eyes_lower",
+  "best_mask_preset": "mask_high",
+  "winner": {
+    "eye_y": 0.46,
+    "lens_h": 0.12,
+    "lens_w": 0.18,
+    "gap": 0.06,
+    "mask_top": 0.42,
+    "mask_bottom": 0.88,
+    "mask_mid": 0.62,
+    "mask_top_half": 0.16,
+    "mask_mid_half": 0.34,
+    "mask_bot_half": 0.3
+  }
+}
