@@ -95,7 +95,9 @@ challenge-01-fl-security/
     └── checks.py
 ```
 
-**Not in git** (see root `.gitignore`): `data/`, all `participant_models*/`, `attack_submission*.csv`, `.venv/`.
+**Not in git** (see root `.gitignore`): `data/`, all `participant_models*/`, `attack_submission*.csv`, `attack/sample_submission.csv` (~53MB template — get it from the Kaggle starter), `.venv/`.
+
+If you need `attack/sample_submission.csv` for packing, copy it from the official `challenge_starter/attack/` zip (or keep a local copy; it is gitignored on purpose).
 
 ---
 
