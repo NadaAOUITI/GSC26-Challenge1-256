@@ -34,11 +34,12 @@ The portal aggregates benign + malicious models **once** per hidden case (FedAvg
 
 ## Architecture
 
-Challenge 01 system overview
+![Challenge 01 system overview](docs/architecture.png)
 
-*Three FL cases → attack pipeline (train, scale, pack CSV) and defense pipeline (*`robust_aggregation`*) → portal evaluation (ASR + clean accuracy).*
+*Three FL cases → attack pipeline (train, scale, pack CSV) and defense pipeline (`robust_aggregation`) → portal evaluation (ASR + clean accuracy).*
 
-Text-only overview (if image does not load)
+<details>
+<summary>Text-only overview (if image does not load)</summary>
 
 ```
   [Benign clients] ──┐
@@ -49,6 +50,8 @@ Text-only overview (if image does not load)
                                │
   Attack path: CelebA + triggers → fine-tune SmallCNN → γ scaling → attack_submission.csv
 ```
+
+</details>
 
 
 
