@@ -118,8 +118,18 @@ Portal aggregates benign + your malicious models **once** (FedAvg, Trimmed Mean,
 | 2026-07-20 | attack | Train-time trigger jitter + γ=1.5 keep | 0.725 | 0.789 | 0.751 | Discard — closest miss; ASR↑ tiny, Clean↓; stay on keep |
 | 2026-07-20 | attack | Bagdasaryan: λ_reg=20 then γ=1.75 | 0.727 | 0.775 | 0.747 | Discard — same Clean crash as bare γ=1.75; λ_reg armor failed |
 | 2026-07-20 | attack | Multi-trigger discrete presets + γ=1.5 | 0.723 | 0.791 | 0.750 | Discard — flat vs keep 0.752 |
+| 2026-07-25 | attack | **Sprint slot 1:** keep γ=1.5 (rescales) | — | — | — | Local FedAvg proxy 0.143; portal TBD |
+| 2026-07-25 | attack | **Sprint slot 2:** per-case γ grid (4.0/2.5/3.0) | — | — | — | Local FedAvg proxy **0.760**; portal TBD |
+| 2026-07-25 | attack | **Sprint slot 3:** global γ=2.5 | — | — | — | Local FedAvg proxy 0.549; portal TBD |
+| 2026-07-25 | attack | **Sprint slot 4:** auto γ (n/m per case) | — | — | — | Local FedAvg proxy **0.832** — **upload first** |
+| 2026-07-25 | attack | **Sprint slot 5:** train-and-scale + auto γ | — | — | — | Local FedAvg proxy 0.032; discard locally |
+| 2026-07-25 | attack | **Sprint slot 6:** 2000 img / 8 ep / γ=1.5 | — | — | — | Local FedAvg proxy 0.101; discard locally |
+| 2026-07-25 | attack | **Sprint slot 7:** γ=2.0 + λ_reg=15 | — | — | — | Local FedAvg proxy 0.351; portal TBD |
+| 2026-07-25 | attack | **Sprint slot 8:** trigger jitter + γ=1.5 | — | — | — | Local FedAvg proxy 0.143; discard locally |
+| 2026-07-25 | attack | **Sprint slot 9:** DBA + γ=2.0 | — | — | — | Local FedAvg proxy 0.394; portal TBD |
+| 2026-07-25 | attack | **Sprint slot 10:** neurotoxin@0.5 + γ=1.5 | — | — | — | Local FedAvg proxy 0.119; discard locally |
 
-*(Add your next row here.)*
+*(Fill portal ASR/Clean/Score after each upload; keep if formula beats 0.7329.)*
 
 ---
 
@@ -230,4 +240,4 @@ python defense/eval_local.py --submission defense_submission_trimmed.py \
 
 ---
 
-*Last updated: 2026-07-21 (docs + gitignore for teammate submit; keep still 0.752)*
+*Last updated: 2026-07-25 (attack sprint: 10 portal CSVs ready; local best = slot 4 auto γ, FedAvg proxy 0.832)*

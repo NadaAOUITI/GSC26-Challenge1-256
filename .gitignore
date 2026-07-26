@@ -40,5 +40,6 @@ attack/sample_submission.csv
 !defense/visible_case/**/*.pt
 
 challenge_starter/
+tools/
 mystery_perms.cpp
 test_g.py

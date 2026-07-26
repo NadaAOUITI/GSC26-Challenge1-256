@@ -263,16 +263,22 @@ def make_hair_dataset(
     transform = default_transform(image_size)
 
     if celeba_torchvision_ready(data_root):
-        if start_index != 0:
-            raise ValueError(
-                "start_index is only supported for the local celeba_subset layout."
-            )
-        return HairColorCelebA(
+        total = start_index + max_images
+        base = HairColorCelebA(
             data_root=data_root,
             split=split,
             transform=transform,
-            max_images=max_images,
+            max_images=total,
         )
+        if start_index == 0:
+            return base
+        end = min(start_index + max_images, len(base))
+        if start_index >= end:
+            raise ValueError(
+                f"holdout start_index={start_index} exceeds available "
+                f"torchvision CelebA images ({len(base)})."
+            )
+        return Subset(base, range(start_index, end))
 
     if celeba_subset_ready(data_root):
         return HairColorFolder(
